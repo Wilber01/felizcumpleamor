@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <STYLE>A {text-decoration: none;} </STYLE>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Treasure</title>
+    <link rel="stylesheet" href="treasure.css">
+    <script src="index.js" defer></script>
+    <link rel="icon" sizes="16x16" href="media/icon16.png">
+    <link rel="icon" sizes="32x32" href="media/icon32.png">
+</head>
+<body>
+    <div class="abajo">
+        <h3>^^^^^^<br>
+            clic aquí</h3>
+    </div>
+    <div class="treasure-map" onclick="activateGifAnimation(this)">
+        <img src="media/camino.png" class="path-image">
+        <button id="island1" class="island-button island1" onclick="openPopup(this)" disabled></button>
+        <button id="island2" class="island-button island2" onclick="openPopup(this)" disabled></button>
+        <button id="island3" class="island-button island3" onclick="openPopup(this)" disabled></button>
+        <button id="island4" class="island-button island4" onclick="openPopup(this)" disabled></button>
+        <button id="island5" class="island-button island5" onclick="openPopup(this)" disabled></button>
+        <button id="island6" class="island-button island6" onclick="openPopup(this)" disabled></button>
+        <button id="island7" class="island-button island7" onclick="openPopup(this)" disabled></button>
+        <button id="island8" class="island-button island8" onclick="openPopup(this)" disabled></button>
+        <form action="index.html">
+            <button id="brujula" class="island-button brujula" onmouseover="changeText2(this)"></button>
+        </form>
+
+        <div style="text-align: center" class="popup-container" id="popup-island1">
+            <div class="popup-content">
+                
+                <h3 class= "titulo">ISLA INICIAL<span class="popup-close" onclick="closePopup('popup-island1')"> x</span> </h3>
+                <p>El nombre de está isla es para representar el donde inicio todo.<br>
+                    y donde fue? pues todo comenzo en la primera vez que te vi y dije <br>
+                    ooo es bonita le hablare ademas es amiga de pao tendre para sacarle platica por ella</p>
+                <img src="media/kyo.gif" width="90" height="90"><br>
+                <a id="link-popup-island1" target="_blank" href="" style="display: none">:3</a>
+
+            </div>
+        </div>
+
+        <div style="text-align: center" class="popup-container" id="popup-island2">
+            <div class="popup-content">
+                
+                <h3 class= "titulo">NOVIAZGO <span class="popup-close" onclick="closePopup('popup-island2')"> x</span> </h3>
+                <p>PORQUE EL NOMBRE TE PREGUNTARAS<br>
+                    pues sencillamente para representar el momento que yo tome como<br>
+                    ya esta somos novios desde hoy desde este instante<br>
+                    y cual es ese momento dira. pues fue cuando te di nuestro primer beso!
+                </p>
+                <img src="media/haru.gif" width="120" height="90"><br>
+                <a id="link-popup-island2" target="_blank" href="" style="display: none">owo</a>
+
+            </div>
+        </div>
+
+        <div style="text-align: center" class="popup-container" id="popup-island3">
+            <div class="popup-content">
+                
+                <h3 class= "titulo">MOMENTOS FELIZ<span class="popup-close" onclick="closePopup('popup-island3')"> x</span> </h3>
+                <p>UMM si te dijera que todos los momentos a tu lado son felices te estaria mimiendo<br>
+                    pero ten en cuenta que son mas los momentos felices que paso a tu lado<br>
+                    que los malos y cuales son los malos diras<br>
+                    eso en la siguiente isla
+                </p>
+                <img src="media/raku.gif" width="100" height="80"><br>
+                <a id="link-popup-island3" target="_blank" href="" style="display: none"></a>
+
+            </div>
+        </div>
+
+        <div style="text-align: center" class="popup-container" id="popup-island4">
+            <div class="popup-content">
+                
+                <h3 class= "titulo">MOMENTOS<span class="popup-close" onclick="closePopup('popup-island4')"> x</span> </h3>
+                <p>no son muchos la verdad<br>
+                   solamente podria decir que son cuando desconfias de mi o piensas que hare algo que claramente nunca haria<br>
+                </p>
+                <img src="media/nosabiaqdibujarasiqgato.gif" width="90" height="80"><br>
+                <a id="link-popup-island4" style="display: none">
+                    <a target="_blank" href=""></button>
+                    <a target="_blank" href=""></button>
+                </a>
+
+            </div>
+        </div>
+
+        <div style="text-align: center" class="popup-container" id="popup-island5">
+            <div class="popup-content">
+                
+                <h3 class= "titulo">ME QUEDO SIN IDEAS<span class="popup-close" onclick="closePopup('popup-island5')"> x</span> </h3>
+                <p>SOLAMENTE ESPERO QUE EL REGALO <br>
+                    QUE TE DARE EL DIA DE HOY TE GUSTE DEMASIADO<br>
+                </p>
+                <img src="media/enrique.gif" width="140" height="90"><br>
+            </div>
+        </div>
+
+        <div style="text-align: center" class="popup-container" id="popup-island6">
+            <div class="popup-content">
+                
+                <h3 class= "titulo">ISLA AUUUUU<span class="popup-close" onclick="closePopup('popup-island6')"> x</span> </h3>
+                <p>NO LOSE JAJAJA SOLO QUISE PONER EL MEME<br>
+                    LA CANCION TE LA INMAGINAS<br>
+                    un lobo siempre cuida a su loba<br>
+                    
+                </p>
+                <img src="media/manu.gif" width="90" height="90"><br>
+                
+
+            </div>
+        </div>
+
+        <div style="text-align: center" class="popup-container" id="popup-island7">
+            <div class="popup-content">
+                
+                <h3 class= "titulo">CASI FINAL<span class="popup-close" onclick="closePopup('popup-island7')"> x</span> </h3>
+                <p>Me encanta estar contigo” <br>
+                porque es como sentirme volando en las nubes
+                </p>
+                <img src="media/job.jpg" width="90" height="90"><br>
+                <a target="_blank" id="link-popup-island7" href=""></a>
+            </div>
+        </div>
+
+        <div style="text-align: center" class="popup-container" id="popup-island8">
+            <div class="popup-content">
+                
+                <h3 class= "titulo">My heart<span class="popup-close" onclick="closePopup('popup-island8')"> x</span> </h3>
+                <p>A A le gusta B, a C le gusta D
+                    <br>
+                    A E le gusta F y a G le gusta H
+                    <br>
+                    y a mi  me gustas tu
+                </p>
+                <img src="media/lu.gif" width="90" height="90"><br>
+                <a id="link-popup-island8" style="display: none"></a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
